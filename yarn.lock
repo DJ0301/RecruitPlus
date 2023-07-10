@@ -18,6 +18,18 @@
     jsonpointer "^5.0.0"
     leven "^3.1.0"
 
+"@auth0/auth0-react@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.npmjs.org/@auth0/auth0-react/-/auth0-react-2.1.1.tgz"
+  integrity sha512-KOFdTaFvashPX1o3h3ARYSCtR0qMya1ia57rSL2q7yggKv7PijHI/cKoG/gDvLA2G0M1qoCR3eACGDgHxstO3Q==
+  dependencies:
+    "@auth0/auth0-spa-js" "^2.0.8"
+
+"@auth0/auth0-spa-js@^2.0.8":
+  version "2.0.8"
+  resolved "https://registry.npmjs.org/@auth0/auth0-spa-js/-/auth0-spa-js-2.0.8.tgz"
+  integrity sha512-qCgWZS58S69WCg2ybd+SDiaw3ahBVJ4/tSFWMtIpc//Fq8kRHGwMOmgpNKVAFrpHG0ck2oWFGrpylxoto8Z0mA==
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.0", "@babel/code-frame@^7.16.7", "@babel/code-frame@^7.8.3":
   version "7.16.7"
   resolved "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.16.7.tgz"
@@ -7152,7 +7164,7 @@ react-dev-utils@^12.0.0:
     strip-ansi "^6.0.1"
     text-table "^0.2.0"
 
-react-dom@*, "react-dom@^15.5.4 || ^16.0.0 || ^17.0.0", react-dom@^17.0.2:
+react-dom@*, "react-dom@^15.5.4 || ^16.0.0 || ^17.0.0", "react-dom@^16.11.0 || ^17 || ^18", react-dom@^17.0.2:
   version "17.0.2"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
@@ -7249,7 +7261,7 @@ react-scroll@^1.8.6:
     lodash.throttle "^4.1.1"
     prop-types "^15.7.2"
 
-react@*, "react@^15.5.4 || ^16.0.0 || ^17.0.0", react@^17.0.2, "react@>= 16", react@17.0.2:
+react@*, "react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@^16.11.0 || ^17 || ^18", react@^17.0.2, "react@>= 16", react@17.0.2:
   version "17.0.2"
   resolved "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
